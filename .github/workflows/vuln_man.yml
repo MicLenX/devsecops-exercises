@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
+# Exercise SBOM Generation
   sbom:
     name: Generate app SBOM
     runs-on: ubuntu-latest
